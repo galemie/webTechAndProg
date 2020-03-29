@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="this is site about fruit machine">
+    <title>Fruit machine</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Fruit machine</h1>
+
+    <fieldset class="topBox">
+        <legend>CREDIT</legend>
+        <input type="number" id="creditBox" min="0">
+    </fieldset>
+
+    <fieldset class="topBox">
+        <legend>WINNINGS</legend>
+        <input type="number" id="winnings" min="0">
+    </fieldset>
+    
+   
+    <div id="gameSlot">
+        <img id="slot1" src="images/1.png" width="100">
+        <img id="slot2" src="images/1.png" width="100">
+        <img id="slot3" src="images/1.png" width="100">
+    </div>
+
+    <fieldset class="bottomBox">
+        <legend>MESSAGES</legend>
+        <output type="text" id="message">
+    </fieldset>
+
+    <button type="submit" id="spin" name="spin">Spin</button>
+    <button type="submit" id="credit" name="credit">Credit</button>
+    <button type="submit" id="collect" name="collect">Collect</button>
+    
+    <script src="scripts/main.js"></script>
+
+</body>
+</html>
